@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="poss.css">
+    <title>ball possession radar</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="proHead">
+            <div class="head">
+                <h2>ball possession radar</h2>
+            </div>
+    
+            <div class="teams-btns">
+                    <button id="team1Btn" >Start</button>
+                    <button id="team2Btn">Start</button>                
+            </div>
+            <div class="done-pause">
+                <button id="pauseBtn">pause</button>
+                <button id="doneBtn" onclick="finish()">Finish</button>
+                    
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <th>Team1</th>
+                <th>Team2</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td id="pcn1">00.00%</td>
+                    <td id="pcn2">00.00%</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="poss.JS"></script>
+</body>
+</html>

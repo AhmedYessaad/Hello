@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: #123;
+    width: 100%;
+    height: 100vh;
+}
+h2{
+    text-align: center;
+    margin: 10px 0px;
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 0px 0px 10px pink;
+}
+.teams-btns{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.teams-btns button{
+    width: 250px;
+    height: 100px;
+    border-radius: 14px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    
+}
+#team1Btn{
+    background: #ff0000;
+    color: white;
+    transition: 0.2s;
+}
+#team1Btn:focus{
+    background: #7e1c1c;
+}
+#team2Btn{
+    background: #0059ff;
+    color: white;
+    transition: 0.2s;
+}
+#team2Btn:focus{
+    background: #18418d;
+}
+.done-pause{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 30px;
+}
+#doneBtn , #pauseBtn{
+    padding: 20px 30px;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    width: 100px;
+    height: 70px;
+    text-transform: capitalize;
+}
+#doneBtn:hover{
+    background: #999;
+}
+#pauseBtn:hover{
+    background: #999;
+}
+@media (max-width: 640px){
+    .teams-btns button{
+        width: 200px;
+        height: 70px;
+    }
+    #doneBtn , #pauseBtn{
+        font-size: 14px;
+        width: 90px;
+        height: 60px;
+    }
+    .done-pause{
+        margin-top: 40px;
+        gap: 20px;
+    }
+}
+
+
+table{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+th{
+    text-decoration: underline;
+    font-size: 20px;
+}
+td{
+    font-size: 20px;
+}
